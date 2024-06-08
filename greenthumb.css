@@ -1,0 +1,30 @@
+#plantCard {
+    background-color: lightgreen;
+    padding: 20px;
+    border: 1px solid green;
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start; /* Align items at the top */
+}
+
+#plantImage {
+    width: 90px;
+    height: 90px;
+    object-fit: cover; /* Ensures the image covers the frame without distortion */
+}
+#choice {
+    flex: 1;
+    margin-right: 20px; /* Space between choice and form */
+}
+
+#dataForm {
+    flex: 2; /* Flex value can be adjusted based on your layout preference */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#choice h3 {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0; /* Optional: Remove default margin for h3 as well */
+}
